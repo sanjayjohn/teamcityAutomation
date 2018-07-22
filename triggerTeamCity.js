@@ -1,4 +1,4 @@
-var url = "http://" + constants.BambooURL + '/app/rest/buildQueue';
+var url = "http://" + constants.TeamCityURL + '/app/rest/buildQueue';
 
 var headers = {
    'Content-Type': 'application/xml'
