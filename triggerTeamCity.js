@@ -4,7 +4,7 @@ var headers = {
    'Content-Type': 'application/xml'
 };
 
-let projectCode = constants.TeamCityProjectCode
+var projectCode = constants.TeamCityProjectCode
 
 var dataString = "<build><buildType id='" + projectCode + "'/></build>";
 
